@@ -1,0 +1,6 @@
+- name: Add user 'ansible_roles'
+  ansible.builtin.user:
+    name: "{{ user_name }}"
+    state: present
+    createhome: yes
+    shell: /bin/bash

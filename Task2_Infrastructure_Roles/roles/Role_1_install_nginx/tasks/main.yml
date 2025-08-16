@@ -1,0 +1,5 @@
+- name: Install nginx
+  apt:
+    name: "{{ package_name }}"
+    state: latest
+    update_cache: yes

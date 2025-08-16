@@ -1,0 +1,23 @@
+---
+- name: Task-5
+  hosts: WebServers
+  become: yes
+  vars:
+    file_src: "/mnt/c/Users/Ahmed.Daoud/Desktop/Tasks/Ansible_Task 2/Task-5/test file"
+    file_dest: "/etc/motd"
+
+  tasks:
+    - name: Copy file only if changed
+      ansible.builtin.copy:
+        src: "{{ file_src }}"
+        dest: "{{ file_dest }}"
+        owner: deploy
+        group: deploy
+        mode: '0644'
+      notify:
+        - Show file update time if changed
+  handlers:
+    - name: Show file update time if changed
+      ansible.builtin.debug:
+        msg: "test file updated at {{ ansible_date_time.iso8601 }}"
+

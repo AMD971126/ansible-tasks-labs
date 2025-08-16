@@ -1,0 +1,4 @@
+The role raj-pushp.nginx-custom uses the dnf module,
+which is designed for RedHat-based systems.
+When executed on an apt-based system (like Ubuntu or Debian), 
+it causes a package manager conflict, resulting in a task failure.

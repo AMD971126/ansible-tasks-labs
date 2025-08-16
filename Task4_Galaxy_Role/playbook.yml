@@ -1,0 +1,7 @@
+---
+- name: Task-4
+  hosts: WebServers
+  become: yes
+
+  roles:
+    - /home/ansible_control/.ansible/roles/raj-pushp.nginx-custom

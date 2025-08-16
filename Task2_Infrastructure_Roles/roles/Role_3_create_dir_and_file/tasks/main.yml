@@ -1,0 +1,9 @@
+- name: Create a new directory
+  ansible.builtin.file:
+    path: "{{ dir_name }}"
+    state: directory
+
+- name: Create an empty file
+  ansible.builtin.file:
+    path: "{{ file_name }}"
+    state: touch

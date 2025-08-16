@@ -1,0 +1,17 @@
+---
+- name: Task-2
+  hosts: WebServers
+  become: yes
+
+  roles:
+    - Role_1_install_nginx
+    - Role_2_create_user
+    - Role_3_create_dir_and_file
+
+
+
+
+
+
+
+        
