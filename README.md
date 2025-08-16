@@ -27,7 +27,7 @@ This repository contains **5 Ansible mini-projects** that demonstrate automation
   
      
 ## 👤 Author
-**Ahmed Mohamed Daoud**  
+**Ahmed Daoud**  
 - IT Specialist | Network Engineer | DevOps Enthusiast  
 - [LinkedIn](https://www.linkedin.com/in/ahmedmohameddaoud/) | [GitHub](https://github.com/AMD971126)  
      
