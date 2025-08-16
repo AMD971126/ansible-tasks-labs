@@ -1,9 +1,3 @@
-على جهازك (جوه فولدر ansible-tasks-labs/) اعمل ملف جديد:
-README.md
-
-انسخ فيه المحتوى اللي هيبقى التوثيق الرئيسي للريبو.
-مثال جاهز ليك:
-
 # 🛠️ Ansible Tasks & Mini Projects
 
 This repository contains **5 Ansible mini-projects** that demonstrate automation use cases, configuration management, and DevOps practices.
